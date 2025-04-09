@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Loan Management</title>
+    <script src="loan.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <h1 class="mt-5">Loan Management System</h1>
+  
+
+       
+    <div class="container mt-5 p-4 greenish" style="width:40%;">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter Your Name: </label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Abel Asefa">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Enter Your Income: </label>
+        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="1000">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput3" class="form-label">Enter Your Loan Ammount: </label>
+        <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="20000">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput4" class="form-label">Enter Your Loan Duration: </label>
+        <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="2 years">
+      </div>
+      <button type="button" class="btn" onclick="checkLoanEligibility()">Check Eligibility</button>
+<button type="button" class="btn" onclick="displayLoanSummary()">Display Summary</button>
+<script src="loan.js"></script>
+    </div>
+ 
+    <div id="result" class="container mt-5 greenish" style="width:40%; color:rgb(4, 40, 4); background-color: rgb(253, 253, 253);"></div>
+
+      
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+
+    background-image: url(loan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+    margin-left: 35px;
+}
+
+.greenish{
+    border: 3px solid rgb(18, 91, 18);
+    border-radius: 25px 25px;
+    margin: 30px;
+}
+.greenish:hover{
+    background-color: rgb(11, 36, 11);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+ 
+}
+.btn{
+    border-radius: 25px 25px;
+    color:  rgb(18, 91, 18);
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(12, 236, 12);
+ 
+}
+.mb-3{
+    color:white;
+}
